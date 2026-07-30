@@ -1,21 +1,46 @@
 aid: labdoor
 name: LabDoor
-description: LabDoor is a company surfaced as a portfolio company of 500-global, y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Labdoor is an independent San Francisco-based supplement testing company that buys top-selling
+  vitamins, supplements, protein powders and energy drinks off retail shelves and online stores and sends
+  samples to FDA-registered analytical laboratories for chemical analysis of active ingredients and potential
+  contaminants. It grades every product on Label Accuracy, Product Purity, Nutritional Value, Ingredient
+  Safety and Projected Efficacy, then publishes the resulting rankings, scores and expert reports for
+  free so consumers can compare products, and it funds that testing through retail sales and through
+  Labdoor Enterprise certification and custom-testing services sold to manufacturers. Labdoor publishes
+  no public developer API, SDKs, developer portal or API documentation as of July 2026.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://labdoor-web-cdn-prod.labdoor.com/public/images/social-share-labdoor.jpg
 url: https://raw.githubusercontent.com/api-evangelist/labdoor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 - y-combinator
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Supplements
+- Health
+- Nutrition
+- Product Testing
+- Laboratory Testing
+- Consumer Safety
+- Certification
+- Ratings
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,32 @@ maintainers:
 common:
 - type: Website
   url: https://labdoor.com
+- type: About
+  url: https://labdoor.com/about
+- type: Support
+  url: https://labdoor.com/contact-us
+- type: SignUp
+  url: https://labdoor.com/account/signup
+- type: Login
+  url: https://labdoor.com/login
+- type: TermsOfService
+  url: https://labdoor.com/about/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://labdoor.com/about/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/labdoor
+- type: Twitter
+  url: https://twitter.com/Labdoor
+- type: Facebook
+  url: https://www.facebook.com/Labdoor
+- type: Instagram
+  url: https://www.instagram.com/labdoor
+- type: DomainSecurity
+  url: security/labdoor-domain-security.yml
+- type: LLMsTxt
+  url: llms/labdoor-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
