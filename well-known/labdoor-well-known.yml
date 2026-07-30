@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of /.well-known/* on labdoor.com and api.labdoor.com
+host: https://labdoor.com
+result: none
+notes: No /.well-known/ discovery documents are published on either the marketing host or the
+  api.labdoor.com origin. Recorded as a negative probe result; no WellKnown or SecurityTxt pointer
+  is wired in apis.yml because nothing is present.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+additional_hosts:
+- host: https://api.labdoor.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404

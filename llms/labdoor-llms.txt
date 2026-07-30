@@ -1,0 +1,56 @@
+# Labdoor
+
+> Labdoor is an independent supplement testing company. It buys top-selling vitamins, supplements,
+> protein powders and energy drinks off retail shelves, sends samples to FDA-registered analytical
+> laboratories for chemical analysis of active ingredients and contaminants, grades each product on
+> Label Accuracy, Product Purity, Nutritional Value, Ingredient Safety and Projected Efficacy, and
+> publishes the resulting rankings and reports for free.
+
+Labdoor publishes no public developer API, SDKs, developer portal, or API documentation as of
+2026-07-19. There is an `api.labdoor.com` origin serving the first-party web application, but it is
+undocumented and not offered as a public product. Treat the public website below as the only
+addressable surface.
+
+## Rankings and reports
+
+- [All rankings](https://labdoor.com/rankings): Ranked, scored product lists by supplement category.
+- [Fish oil rankings](https://labdoor.com/rankings/fish-oil)
+- [Probiotics rankings](https://labdoor.com/rankings/probiotics)
+- [Multivitamins rankings](https://labdoor.com/rankings/multivitamins)
+- [Protein rankings](https://labdoor.com/rankings/protein)
+- [Prenatal vitamin rankings](https://labdoor.com/rankings/prenatal-vitamins)
+- [Creatine rankings](https://labdoor.com/rankings/creatine)
+- [Pre-workout rankings](https://labdoor.com/rankings/pre-workout)
+- [BCAA rankings](https://labdoor.com/rankings/bcaa)
+- [NAD+ rankings](https://labdoor.com/rankings/nad)
+- [Upcoming tests](https://labdoor.com/rankings/upcoming)
+- [Brands](https://labdoor.com/brands)
+
+## Methodology
+
+- [About Labdoor](https://labdoor.com/about): What Labdoor is and how it operates.
+- [Testing process](https://labdoor.com/about/testing): How products are purchased and analyzed.
+- [Scoring process](https://labdoor.com/about/scores): How Quality scores are calculated.
+- [Business model](https://labdoor.com/about/business-model): How Labdoor funds free reports.
+- [Press](https://labdoor.com/about/press)
+
+## Enterprise
+
+- [Labdoor Enterprise](https://labdoor.com/enterprise): Services for manufacturers.
+- [Certifications](https://labdoor.com/enterprise/certifications)
+- [Custom testing](https://labdoor.com/enterprise/custom-testing)
+- [Manufacturer partners](https://labdoor.com/enterprise/manufacturer-partners)
+
+## Account and legal
+
+- [Sign up](https://labdoor.com/account/signup)
+- [Log in](https://labdoor.com/login)
+- [Contact](https://labdoor.com/contact-us): contact@labdoor.com
+- [Terms of use](https://labdoor.com/about/legal/terms-of-use)
+- [Privacy policy](https://labdoor.com/about/legal/privacy-policy)
+
+## Machine-readable
+
+- [Sitemap index](https://labdoor.com/sitemap_index.xml): Static URLs, guides, brands and product reviews.
+- [robots.txt](https://labdoor.com/robots.txt)
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/labdoor/refs/heads/main/apis.yml)
