@@ -8,6 +8,17 @@ description: Labdoor is an independent San Francisco-based supplement testing co
   free so consumers can compare products, and it funds that testing through retail sales and through
   Labdoor Enterprise certification and custom-testing services sold to manufacturers. Labdoor publishes
   no public developer API, SDKs, developer portal or API documentation as of July 2026.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
