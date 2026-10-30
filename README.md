@@ -64,26 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Labdoor is an independent supplement testing company. It buys top-selling vitamins, supplements, protein powders and energy drinks off retail shelves and online stores, sends samples to FDA-registered analytical laboratories for chemical analysis of active ingredients and potential contaminants, grades each product on Label Accuracy, Product Purity, Nutritional Value, Ingredient Safety and Projected Efficacy, and publishes the resulting rankings and expert reports for free. Testing is funded by retail sales and by Labdoor Enterprise certification and custom-testing services sold to manufacturers.
+Labdoor is an independent San Francisco-based supplement testing company that buys top-selling vitamins, supplements, protein powders and energy drinks off retail shelves and online stores and sends samples to FDA-registered analytical laboratories for chemical analysis of active ingredients and potential contaminants. It grades every product on Label Accuracy, Product Purity, Nutritional Value, Ingredient Safety and Projected Efficacy, then publishes the resulting rankings, scores and expert reports for free so consumers can compare products, and it funds that testing through retail sales and through Labdoor Enterprise certification and custom-testing services sold to manufacturers. Labdoor publishes no public developer API, SDKs, developer portal or API documentation as of July 2026.
 
-Backed by: 500-global, y-combinator — https://labdoor.com
+**Areas:** Company · Supplements · Health · Nutrition · Product Testing · Laboratory Testing · Consumer Safety · Certification · Ratings
 
-## API surface
+## LabDoor on APIs.io
 
-**Labdoor publishes no public API** as of 2026-07-19. Verified during the enrichment pass:
+Everything profiled for LabDoor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/labdoor/](https://apis.io/providers/labdoor/)** — or go straight to one of the APIs or properties below.
 
-- No developer portal, API documentation, or API reference (`/developers`, `developer.labdoor.com`, `docs.labdoor.com` all absent).
-- No OpenAPI/Swagger/GraphQL/AsyncAPI specification published anywhere.
-- No first-party SDKs or packages on npm, PyPI, or RubyGems.
-- The `github.com/labdoor` organization exists (Labdoor Inc., San Francisco, created 2015) but has **0 public repositories**.
-- No `/llms.txt`, no `/.well-known/*` discovery documents, no status page, no trust center, no security.txt, and no published vulnerability disclosure program.
-- `api.labdoor.com` resolves and serves an Apache default page (HTTP 403 at root, 404 on probed paths). Its CORS response headers advertise `x-api-key`, `authorization`, and `x-labdoor-captcha`, so it is the first-party web application's backend — undocumented and not offered as a public product. It is deliberately **not** recorded as an API in `apis.yml`.
-- `robots.txt` disallows `/service/*`, but no `/service/*` path returned anything other than 404.
+### Published properties
 
-## Artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Artifact | File | Method |
-|---|---|---|
-| Domain security | `security/labdoor-domain-security.yml` | probed |
-| Well-known probe | `well-known/labdoor-well-known.yml` | searched (none found) |
-| llms.txt | `llms/labdoor-llms.txt` | generated |
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Labdoor Domain Security](https://apis.io/security/labdoor/labdoor-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://labdoor.com)
+- [Sign up](https://labdoor.com/account/signup)
+- [Support](https://labdoor.com/contact-us)
+- [Terms of service](https://labdoor.com/about/legal/terms-of-use)
+- [Privacy policy](https://labdoor.com/about/legal/privacy-policy)
+- [GitHub](https://github.com/labdoor)
+
+## API Evangelist rating
+
+**Kin Score 13.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/labdoor/](https://apis.io/providers/labdoor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LabDoor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/labdoor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
